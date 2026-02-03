@@ -46,7 +46,7 @@ no.addEventListener("click", () => {
     count++;
   } else if (count == 5) {
     gif.src = "../resources/5.crying.gif";// gif credit: https://tenor.com/view/cat-gif-10173437195524493032
-    text.innerHTML = "Pretty Please🥺😘";
+    text.innerHTML = "Pretty Please🥺";
     yes.style.height = "90%";
     yes.style.width = "96%";
     no.style.display = "none";
@@ -57,8 +57,8 @@ no.addEventListener("click", () => {
 yes.addEventListener("click", () => {
   vid.style.display = "block";
   gif.src = "../resources/idc.gif";// gif credit: https://tenor.com/view/peach-cat-kiss-animated-love-mwah-gif-25743978
-  text.innerHTML = "Knew it babe 😘";
-  yes.innerHTML = '<a href="https://www.instagram.com/rahul_gupta111?igsh=Nno3NDY5bzFuMXAz&utm_source=qr">Message me</a>';// inside the " " put your social media profile link
+  text.innerHTML = "Thanks for accepting my proposal🫶🏻";
+  yes.innerHTML = '<a href="https://www.instagram.com/rahul_gupta111?igsh=Nno3NDY5bzFuMXAz&utm_source=qr">Now Message me</a>';// inside the " " put your social media profile link
   yes.style.height = "90%";
   yes.style.width = "96%";
   no.style.display = "none";
