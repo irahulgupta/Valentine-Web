@@ -31,7 +31,7 @@ no.addEventListener("click", () => {
     count++;
   } else if (count == 3) {
     gif.src = "../resources/3shocked-1.gif";// gif credit: https://tenor.com/view/tkthao219-peach-goma-gif-25008901
-    text.innerHTML = "Your hand must have slipped right?🥹";
+    text.innerHTML = "Your hand must have slipped right?🤔";
     yes.style.height = "70%";
     yes.style.width = "70%";
     no.style.width = "20%";
@@ -57,7 +57,7 @@ no.addEventListener("click", () => {
 yes.addEventListener("click", () => {
   vid.style.display = "block";
   gif.src = "../resources/idc.gif";// gif credit: https://tenor.com/view/peach-cat-kiss-animated-love-mwah-gif-25743978
-  text.innerHTML = "Thanks for accepting my proposal🫶🏻";
+  text.innerHTML = "Yayyyyyy, its a date 💕🫶🏻";
   yes.innerHTML = '<a href="https://www.instagram.com/rahul_gupta111?igsh=Nno3NDY5bzFuMXAz&utm_source=qr">Now Message me</a>';// inside the " " put your social media profile link
   yes.style.height = "90%";
   yes.style.width = "96%";
